@@ -1,6 +1,6 @@
 // WHAT IS THIS EVEN DOING?
-
-// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
+  // I DON'T KNOW
+// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening.
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We make a variable called name and set it to the string 'Dane'
+//We then check if the name is Mary if so console.log 'Hi, Mary!'
+//We also have an else statement if name is anything other than Mary, it is other than Mary
+//we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We declare a variable secret
+//We declare a variable code and set it equal to 123
+//We check if code is equal to 123 if it is, which it is, we set variable secret equal to 'super' and variable code equal to code * 2
+//Then we check if code is greater than 250 if it is, which it is, we set variable secret equal to 'duper'
+//We console.log secret
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We make a variable isStudent a boolean equal to true.  Another variable age equal to 34.  And we make variable zip equal to 55407.
+//We then check if isStudent equal to true and zip is less than 80000 if so, which it is, we console.log 'You're a student on the West Coast'.
+//We also check if isStudent equal to false or is age less than 30 if so, console.log 'What are your hobbies?'
+//We then check if isStudent equal to true if so, which it is, we console.log 'Welcome to Prime'.
+//Then as a catch all for any other case we console.log 'How about the weather?'
 
 //CODE
 /*
@@ -97,7 +99,7 @@ if (isStudent === true && zip > 80000 ) {
 
 
 // REVERSE
-// Now, for questions 4-6, we'll give you a description and some code. 
+// Now, for questions 4-6, we'll give you a description and some code.
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
 // Look closely -- things are logically incorrect or missing and wrong in the code!
@@ -106,16 +108,16 @@ if (isStudent === true && zip > 80000 ) {
 // 0. (DESCRIPTION OF CORRECT BEHAVIOR)
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 
+// We check if number is greater than or equal to 2.
 // -- it is, so we console.log 'yes'
 
 //CODE
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -125,45 +127,54 @@ if (number >= 2) {
 
 
 
-//4. We start with three variables -- colorOne is set to 'blue' and 
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+//4. We start with three variables -- colorOne is set to 'blue' and
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne should be 'blue'.
+//Should be colorOne = 'blue';
 let colorOne = 'red';
+//FIX - colorTwo should be 'red'.
+//Should be colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//colorTwo needs to be set to purple as well
+//Should add colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
 /*
 let temp = 40;
 const time = 4;
 
+//They have an or statment here when they need an and statement
+//Should be if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than or equal to minAge 
+// We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
 /*
 let age = 21;
 const minAge = 21;
 
+//Does not need to be an if else statement just an if statement.  Also age and minAge need to be flipped as well as the no entry in console.log needs to be enter
+//Should be if(age >= minAge) { console.log('enter'); }
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
