@@ -72,9 +72,9 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 //We make a variable isStudent a boolean equal to true.  Another variable age equal to 34.  And we make variable zip equal to 55407.
-//We then check if isStudent equal to true and zip is less than 80000 if so, which it is, we console.log 'You're a student on the West Coast'.
-//We also check if isStudent equal to false or is age less than 30 if so, console.log 'What are your hobbies?'
-//We then check if isStudent equal to true if so, which it is, we console.log 'Welcome to Prime'.
+//We then check if isStudent is the same type as true and zip is less than 80000 if so, which it is, we console.log 'You're a student on the West Coast'.
+//We also check if isStudent is the same type as false or is age less than 30 if so, console.log 'What are your hobbies?'
+//We then check if isStudent is the same type as true if so, which it is, we console.log 'Welcome to Prime'.
 //Then as a catch all for any other case we console.log 'How about the weather?'
 
 //CODE
