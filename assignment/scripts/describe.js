@@ -48,7 +48,7 @@ if (name === 'Mary') {
 //We declare a variable secret
 //We declare a variable code and set it equal to 123
 //We check if code is equal to 123 if it is, which it is, we set variable secret equal to 'super' and variable code equal to code * 2
-//Then we check if code is greater than 250 if it is, which it is, we set variable secret equal to 'duper'
+//Then we check if code is greater than 250 if it is, but it is not, we would set variable secret equal to 'duper'
 //We console.log secret
 
 //CODE
